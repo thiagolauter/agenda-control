@@ -29,13 +29,14 @@
 .history/*
 
 # Miscellaneous
-./front-end/angular/cache
-./front-end/sass-cache/
-./front-end/connect.lock
-./front-end/coverage
-./front-end/libpeerconnection.log
-./front-end/testem.log
-./front-end/typings
+.angular
+angular/cache
+sass-cache/
+connect.lock
+coverage
+libpeerconnection.log
+testem.log
+typings
 
 # System files
 .DS_Store
