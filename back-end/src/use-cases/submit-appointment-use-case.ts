@@ -29,9 +29,6 @@ export class SubmitAppointmentUseCase {
             const startTime = new Date(request.startTime)
             const endTime = new Date(request.endTime)
 
-        console.log(startTime)
-        console.log(typeof (startTime))
-
 
 
         await this.appointmentsRepository.create({

@@ -17,6 +17,8 @@ routes.post(
             type,
             reminderId } = req.body
 
+            console.table(req.userId);
+            
         try {
             const prismaAppointmentsRepository = new PrismaAppointmentsRepository()
 
